@@ -72,29 +72,29 @@ AND AVG(m.rankscore) >(SELECT avg_rating
 
 ## Key Insights
 
-Movie Trends
-•	The database contains 3,88,269 movies spanning from 1888 to 2008. 
-•	Movie production peaked in 2002, with 12,056 movies released. 
+### Movie Trends
+- The database contains 3,88,269 movies spanning from 1888 to 2008.
+- Movie production peaked in 2002, with 12,056 movies released.
 
-Ratings Analysis
-•	The highest-rated movie is ‘Atunci i-am condamnat pe toti la moarte’ with a rating of 9.9. 
-•	The average movie rating across all films is 5.8. 
-•	‘Film-Noir’ genre has the highest average rating among all genres. i.e. rating = 6.7
- 
-Actor Insights
-•	The most active actor is 'Mel Blanc'. 
-•	‘John’ is the most common first name among actors.
-•	Several actors played multiple roles within the same movie, indicating complex character portrayals. 
-•	‘Around the world in 80 days’ movie had the maximum cast. i.e 1,274 actors
+### Ratings Analysis
+- The highest-rated movie is *'Atunci i-am condamnat pe toti la moarte'* with a rating of **9.9**.
+- The average movie rating across all films is **5.8**.
+- The **'Film-Noir'** genre has the highest average rating among all genres (**6.7**).
 
-Director Insights
-•	'Eleni Alexandrakis' is the only director who maintained long career, with over 98 years between their first and last movies. 
-•	Directors with at least five movies generally achieved higher average ratings than the overall director average.
+### Actor Insights
+- The most active actor is **'Mel Blanc'**.
+- **'John'** is the most common first name among actors.
+- Several actors played multiple roles within the same movie, indicating complex character portrayals.
+- *'Around the World in 80 Days'* had the maximum cast — **1,274 actors**.
 
-Data Quality Findings 
-•	A few actors have names beginning with numbers or special characters, indicating potential data-entry issues. 
-•	Some movies do not have genre information associated with them and may require data cleansing. 
-•	Long movie titles and missing genre assignments highlight opportunities for improving data quality. 
+### Director Insights
+- **'Eleni Alexandrakis'** is the only director with a career spanning over **98 years** between their first and last movies.
+- Directors with at least five movies generally achieved higher average ratings than the overall director average.
+
+### Data Quality Findings
+- A few actors have names beginning with numbers or special characters, indicating potential data-entry issues.
+- Some movies lack genre information and may require data cleansing.
+- Long movie titles and missing genre assignments highlight opportunities for improving data quality. 
 
 ## Conclusion
 
