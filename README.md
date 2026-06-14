@@ -27,9 +27,10 @@ The project uses the following tables:
 ## Files
 
 ```
-├── IMDB Analysis MySQL.sql     # All 35 queries with comments
-├── imdbERdiagram.mwb          # MySQL Workbench ER Diagram
-└── README.md
+├── ER_Diagram.png 
+├── IMDB Analysis MySQL.sql                 
+├── README.md             
+└── schema.sql
 ```
 
 ## Sample Queries
